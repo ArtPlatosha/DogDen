@@ -152,3 +152,47 @@ section {
 	background-color: #ca7c62;
 	color: #fff;
 }
+
+.left {
+	position: absolute;
+	top: 50%;
+	padding: 0 5%;
+	transform: translateY(-50%);
+}
+
+.left i {
+	display: block;
+	margin: 28px 0;
+	font-size: 25px;
+	color: #3e1908;
+	transition: all .40s ease;
+}
+
+.left i:hover {
+	transform: scale(1.1) translateX(-5px);
+}
+
+.right {
+	position: absolute;
+	bottom: 5%;
+	right: 5%;
+}
+
+.scroll {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.right a {
+	color: #ca7c62;
+	font-style: 1.1rem;
+	font-weight: 600;
+	letter-spacing: 1px;
+}
+
+.right i {
+	color: #ca7c62;
+	font-size: 25px;
+	margin-left: 5px;
+}
