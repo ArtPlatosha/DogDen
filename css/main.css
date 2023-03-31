@@ -82,3 +82,73 @@ span {
 	margin-left: 10px;
 	display: none;
 }
+
+.main-header {
+	width: 100%;
+	height: 100vh;
+	background: url(../img/pet.png);
+	background-size: cover;
+	background-position: center;
+	position: relative;
+	display: grid;
+	grid-template-columns: repeat(1, 1fr);
+	align-items: center;
+}
+
+section {
+	padding: 0 19%;
+}
+
+.main-text h1 {
+	margin: 15px 0;
+	font-size: 5.5rem;
+	font-weight: 800;
+	color: #3e1908;
+	letter-spacing: 2px;
+	line-height: 1.1;
+	text-transform: uppercase;
+}
+
+.main-text h5 {
+	font-size: 1.3rem;
+	color: #ca7c62;
+	font-weight: 600;
+	letter-spacing: 5px;
+}
+
+.main-text p {
+	font-size: 1.1rem;
+	color: #9f9c9d;
+	line-height: 30px;
+	margin-bottom: 3rem;
+}
+
+.btn {
+	padding: 15px 35px;
+	color: #fff;
+	background-color: #ca7c62;
+	font-size: 15px;
+	font-weight: 500;
+	border-radius: 15px;
+	border: 2px solid transparent;
+	transition: all .40s ease;
+}
+
+.btn2 {
+	background: transparent;
+	border: 2px solid #ca7c62;
+	color: #3e1908;
+	margin-left: 20px;
+	transition: all .40s ease;
+}
+
+.btn:hover {
+	background: transparent;
+	border: 2px solid #ca7c62;
+	color: #3e1908;
+}
+
+.btn2:hover {
+	background-color: #ca7c62;
+	color: #fff;
+}
